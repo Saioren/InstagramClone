@@ -1,0 +1,435 @@
+html {
+    font-family: instagramfont;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-wrap {
+height: 100%;
+max-width: 320px;
+}
+body {
+   
+}
+.section {
+    
+}
+.mobile-header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+@media  (max-width: 1260px) {
+    .tabs p {
+    display: none;
+    }
+    }
+    
+    @media  (max-width: 1260px) {
+        .instagram-logo {
+        display: none;
+        }
+        } 
+    
+        @media  (max-width: 1260px) {
+            .instagram-icon {
+            display: flex;
+            }
+            } 
+
+@media  (max-width: 1100px) {
+    .side-profiles-wrap {
+    display: none;
+    }
+    }
+    @media  (max-width: 775px) {
+        .sidebar-wrap {
+        display: none;
+        }
+        }
+        @media  (max-width: 775px) {
+            .header-small {
+            display: flex;
+            }
+            }
+            @media  (max-width: 775px) {
+                .footer-small {
+                display: block;
+                }
+                }
+                @media  (max-width: 775px) {
+                    .feed {
+                    margin-top: 80px;
+                    }
+                    }
+@font-face {
+    font-family: instagramfont;
+    src: url(fonts/Proxima\ Nova\ Font.otf);
+}
+@font-face {
+    font-family: instagramfontbold;
+    src: url(fonts/FontsFree-Net-Proxima-Nova-Bold.otf);
+}
+@font-face {
+    font-family: instagramfontmed;
+    src: url(fonts/FontsFree-Net-pr2.ttf);
+}
+.instagram-logo2 {
+    width: 100px;
+}
+.input {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+.input input {
+    background-color: transparent;
+    border: none;
+}
+.header-small {
+    display: none;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   top: 0;
+   right: 0;
+   left: 0;
+  
+}
+.header-small svg {
+   
+}
+.input svg {
+    width: 22px;
+}
+.heart svg {
+    width: 22px;
+}
+.heart {
+    padding-right: 20px;
+}
+.sidebar {
+  background-color: white;
+  
+  position: fixed;
+  border-right: 1px rgb(237, 237, 237) solid;
+  top: 0;
+  bottom: 0;
+  display: sticky;
+left: 0;
+
+}
+
+.instagram-logo {
+padding-bottom: 20px;
+padding-top: 40px;
+padding-left: 20px;
+}
+.instagram-icon {
+    width: 23px;
+    display: none;
+}
+.tabs-wrap {
+
+}
+.tabs p {
+    padding-right: 80px;
+}
+.tabs div img {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.tabs div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 7px;
+    transition: 0.2s;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding-top: 3px;
+  
+}
+.tabs div:hover {
+    background-color: rgb(219, 219, 219);
+    cursor: pointer;
+   
+    
+}
+.profile-wrap {
+    padding-left: 10px;
+   
+}
+.pfp {
+  
+}
+.home-wrap {
+    
+}
+.more-button {
+   
+    padding-left: 9px;
+    
+   
+}
+.more-img {
+   
+}
+.explore-tab {
+
+}
+.explore-text {}
+
+.home-img, .more-button img, .search-img, .explore-img, .reels-img, .messages-img, .notifications-img, .newpost-img {
+  
+    
+    width: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.search-img {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+}
+.notifications-img {
+    stroke-width: 0;
+    fill: currentColor;
+}
+section {
+    display: flex;
+    justify-content: center;
+    
+}
+.main {
+    display: flex;
+   justify-content: center;
+  height: 100%;
+ 
+  
+}
+.body {
+   
+  
+}
+.feed {
+   margin-top: 40px;
+  padding-left: 100px;
+padding-right: 100px;
+   
+}
+.stories-wrap {
+    display: flex;
+
+   
+   height: 100px;
+  
+   
+}
+
+.story {
+    font-size: 15px;
+    padding-right: 15px;
+    height: 100%;
+    color: rgb(101, 101, 101);
+}
+.story:hover {
+    cursor: pointer;
+}
+.post-wrap {
+    width: 480px;
+padding-top: 10px;
+
+}
+.scroll-feed-wrap {
+    
+    display: flex;
+    justify-content: center;
+}
+.post2 {
+    justify-content: center;
+}
+.post-image {
+    max-width: 480px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-height: 480px;
+    overflow: hidden;
+}
+.more-icon  {
+    width: 22px;
+}
+.more-icon:hover {
+    cursor: pointer;
+}
+.posttime-more {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.story img {
+   
+    max-height: 400px;
+        border-radius: 50%;
+        border: solid;
+        background-image: linear-gradient(45deg, #d500d5, #fff700);
+        border-image: linear-gradient(45deg, #d500d5, #fff700);
+        border-radius: 50%    
+}
+.stories-wrap p{
+    margin: 0px;
+}
+.icons svg {
+    width: 22px;
+    
+}
+.icons {
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+}
+
+.icons2 {
+    padding-right: 12px;
+}
+.smiley {
+    width: 12px;
+
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+   height: auto;
+   border-bottom: 1px rgb(220, 220, 220) solid;
+   margin-top: -12px;
+   border-bottom: 1px, rgb(218, 218, 218), solid;
+}
+.poster-name {
+    display: flex;
+    align-items: center;
+}
+.saveicon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.post-info {
+    line-height: 12px;
+    font-size: 14px;
+}
+.pfpname {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: instagramfontbold;
+    font-size: 16px;
+}
+.posttime {
+    font-size: 16px;
+    color: rgb(169, 169, 169);
+}
+.post-para {
+    display: flex;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.poster-pfp {
+    border-radius: 20px;
+    width: 30px;
+    margin-left: 10px;
+}
+.comments, .add-comment {
+    color: rgb(169, 169, 169);
+}
+.side-profiles-wrap {
+
+}
+.pfpfp {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    
+}
+.profiles {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 320px;
+    margin-bottom: -10px;
+}
+.names {
+    padding: 10px;
+    line-height: 5px;
+    font-size: 15px;
+    color: rgb(129, 129, 129);
+}
+.name1 {
+    font-family: instagramfontbold;
+    color: black;
+    padding-right: 5px;
+}
+.name2 {
+    font-size: 13px;
+    margin: 0;
+}
+.switch1 {
+    font-size: 14px;
+    font-family: instagramfontbold;
+    color: rgb(0, 179, 255);
+}
+.space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+.side-profiles-wrap {
+    width: 320px;
+   padding-top: 50px;
+    
+}
+.about {
+    font-size: 13px;
+    color: rgb(212, 211, 211);
+    width: 320px;
+  padding-top: 10px;
+}
+.verified {
+    width: 13px;
+}
+.nameverified {
+    display: flex;
+  align-items: center;
+  
+}
+.myprofile {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    width: 320px;
+}
+.suggested {
+    display: flex;
+    color: grey;
+    font-size: 15px;
+    font-family: instagramfontbold;
+    justify-content: space-between;
+    width: 320px;
+}
+.suggested-pfp {
+    width: 30PX;
+    height: 30px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.seeall {
+    color: rgb(39, 39, 39);
+}
